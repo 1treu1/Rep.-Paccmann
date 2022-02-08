@@ -1,4 +1,4 @@
-export MODEL_NAME=/home/ubuntu/paccmann_proteomics/exp4_longformer
+export MODEL_NAME=/home/ubuntu/Rep.-Paccmann/paccmann_proteomics/models
 export EXP_DIR=/home/ubuntu/paccmann_proteomics/data/dev_1seq.txt  
 export TASK_NAME=pairwise-string
 export OUTPUT_DIR=/home/ubuntu/paccmann_proteomics/out
