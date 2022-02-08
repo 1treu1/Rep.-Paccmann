@@ -1,5 +1,5 @@
 export MODEL_NAME=/home/ubuntu/Rep.-Paccmann/paccmann_proteomics/models1
-export EXP_DIR=/home/ubuntu/paccmann_proteomics/data/dev_1seq.txt  
+export EXP_DIR=/home/ubuntu/paccmann_proteomics/data
 export TASK_NAME=pairwise-string
 export OUTPUT_DIR=/home/ubuntu/paccmann_proteomics/out
 export BATCH_SIZE=8
