@@ -1,7 +1,7 @@
-export MODEL_NAME= ~/paccmann_proteomics/exp4_longformer
-export EXP_DIR= ~/paccmann_proteomics/data
+export MODEL_NAME= /home/ubuntu/paccmann_proteomics/exp4_longformer
+export EXP_DIR= /home/ubuntu/paccmann_proteomics/data
 export TASK_NAME=pairwise-string
-export OUTPUT_DIR=~/paccmann_proteomics/out
+export OUTPUT_DIR=/home/ubuntu/paccmann_proteomics/out
 export BATCH_SIZE=8
 export MAX_LENGTH=512
 export NUM_EPOCHS=1
