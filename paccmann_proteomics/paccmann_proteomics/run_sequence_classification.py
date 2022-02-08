@@ -96,12 +96,18 @@ def _sorted_checkpoints(
     for path in glob_checkpoints:
         if use_modification_time:
             ordering_and_checkpoint_path.append((os.path.getmtime(path), path))
+            print("ordering_and_checkpoint_path")
+            print(ordering_and_checkpoint_path)
         else:
             regex_match = re.match('.*{}-([0-9]+)'.format(checkpoint_prefix), path)
             if regex_match and regex_match.groups():
                 ordering_and_checkpoint_path.append((int(regex_match.groups()[0]), path))
+                print("ordering_and_checkpoint_path2")
+                print(ordering_and_checkpoint_path)
 
     checkpoints_sorted = sorted(ordering_and_checkpoint_path)
+    print("checkpoints_sorted")
+    print(checkpoints_sorted)
     checkpoints_sorted = [checkpoint[1] for checkpoint in checkpoints_sorted]
     return checkpoints_sorted
 
