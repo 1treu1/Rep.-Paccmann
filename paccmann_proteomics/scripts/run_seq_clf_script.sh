@@ -9,7 +9,7 @@ export SAVE_STEPS=750
 export SEED=1
 
 python ../paccmann_proteomics/run_sequence_classification.py \
---model_name_or_path $MODEL_NAME/$TASK_NAME \
+--model_name_or_path $MODEL_NAME \
 --task_name $TASK_NAME \
 --continue_from_checkpoint \
 --data_dir $EXP_DIR/$TASK_NAME \
