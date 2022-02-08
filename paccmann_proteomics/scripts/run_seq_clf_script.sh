@@ -1,4 +1,4 @@
-export MODEL_NAME=/home/ubuntu/Rep.-Paccmann/paccmann_proteomics/models1
+export MODEL_NAME=/home/ubuntu/Rep.-Paccmann/paccmann_proteomics/models2
 export EXP_DIR=/home/ubuntu/paccmann_proteomics/data
 export TASK_NAME=pairwise-string
 export OUTPUT_DIR=/home/ubuntu/paccmann_proteomics/out
